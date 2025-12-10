@@ -5,12 +5,12 @@ A Machine Learning project to predict house prices based on features such as siz
 <h2>Overview</h2>
 <br>
 This project builds a simple yet effective Linear Regression model to predict housing prices.<br>
-Dataset berisi 100 data rumah dengan pola harga yang realistis dan sedikit noise agar mendekati kondisi data dunia nyata.
+The dataset contains 100 housing records with realistic price patterns and added noise to better simulate real-world conditions.
 <br><br>
-Model ini menunjukkan:<br>
-- Hubungan positif antara size & price<br>
-- Hubungan positif antara bedrooms & price<br>
-- Error (MSE) yang sangat rendah karena data bersih dan well-structured<br><br>
+This model demonstrates:<br>
+- A positive relationship between size and price<br>
+- A positive relationship between bedrooms and price<br>
+- Very low error (MSE) due to a clean and well-structured dataset<br><br>
 
 <h2>Project Structure</h2>
 house-price-prediction/<br>
@@ -21,16 +21,16 @@ house-price-prediction/<br>
 │── requirements.txt<br><br>
 
 <h2>Model Used</h2>
-Linear Regression dari scikit-learn:<br>
-- Mudah diinterpretasikan<br>
-- Cocok untuk hubungan linear<br>
-- Akurat untuk dataset bersih<br><br>
+Linear Regression from scikit-learn:<br>
+- Easy to interpret<br>
+- Suitable for linear relationships<br>
+- Accurate when used with clean datasets<br><br>
 
 <h2>Performance</h2>
-Model menghasilkan nilai error:<br>
+The model produces an error value:<br>
 - MSE : 696484870.6547278 <br>
 - RMSE: 26390.999803999995 <br><br>
-Semakin kecil nilai MSE, semakin akurat prediksi model dibanding data asli.
+The smaller the MSE, the more accurate the model’s predictions are compared to the actual data.
 
-<h2>Contoh Prediksi</h2>
-Prediksi harga rumah 2500 sqft, 4 kamar: 478101.2769438156
+<h2>Example Prediction</h2>
+Predicted price for a 2,500 sqft house with 4 bedrooms: 478101.2769438156
