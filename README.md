@@ -28,7 +28,9 @@ Linear Regression dari scikit-learn:<br>
 
 <h2>Performance</h2>
 Model menghasilkan nilai error:<br>
-
-MSE : 696484870.6547278 <br>
-RMSE: 26390.999803999995 <br><br>
+- MSE : 696484870.6547278 <br>
+- RMSE: 26390.999803999995 <br><br>
 Semakin kecil nilai MSE, semakin akurat prediksi model dibanding data asli.
+
+<h2>Contoh Prediksi</h2>
+Prediksi harga rumah 2500 sqft, 4 kamar: 478101.2769438156
